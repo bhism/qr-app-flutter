@@ -20,12 +20,7 @@ class _FirstState extends State<First> {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              Image.asset(
-                'assets/r5.png',
-                width: 200.0,
-                height: 200.0,
-                fit: BoxFit.cover,
-              ),
+            
               Padding(
                 padding: EdgeInsets.all(35),
                 child: Container(
